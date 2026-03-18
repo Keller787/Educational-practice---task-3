@@ -1,0 +1,83 @@
+/* Универсальный селектор */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Стили для шапки сайта */
+header {
+    margin-bottom: 30px;
+    padding: 20px 0;
+    background-color: rgb(49, 57, 65);
+    font-family: sans-serif;
+    text-align: center;
+    color: #fff;
+}
+
+/* Стили для текста в шапке сайта, конкретно название кейс-задачи */
+.case-name {
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+/* Стили для контейнера с кнопками управления
+    слайдером и счётчиком изображений */
+.controls {
+    width: 35%;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+/* Стили для счётчика изображений */
+.counter {
+    font-size: 22px;
+    font-family: sans-serif;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* Стили для кнопок управления слайдером */
+button {
+    font-size: 18px;
+    padding: 0.4rem 1.5rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background: #0B63F6;
+    box-shadow: 0 5px 15px 0 rgba(11, 99, 246, 1);
+    transition: 0.5s;
+}
+
+/* Стили для кнопок управления слайдером при
+    наведении на них курсором мыши */
+button:hover {
+    transform: translate(0, -2px);
+    box-shadow: 0 20px 30px 0 rgba(11, 99, 246, 1);
+}
+
+/* Слайдер */
+
+/* Стили для контейнера со слайдером */
+.slider {
+    margin: 20px auto;
+    width: 720px;
+    height: 450px;
+    box-shadow: rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
+}
+
+/* Стили для изображений слайдера */
+.slider img{
+    width: 100%;
+    height: 100%;
+}
+
+/* Стили, чтобы скрыть изображение */
+.hidden {
+    display: none;
+}
